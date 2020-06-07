@@ -1,0 +1,19 @@
+{
+	"name": "stylelint-config-bellangerq",
+	"version": "0.1.0",
+	"description": "Custom stylelint configuration of Quentin Bellanger",
+	"main": "index.js",
+	"scripts": {
+		"lint": "stylelint tests/**.*{css,scss,vue} --config './index.js'"
+	},
+	"author": "Quentin Bellanger <hello@quentin-bellanger.com>",
+	"license": "MIT",
+	"dependencies": {
+		"stylelint": "^13.6.0",
+		"stylelint-config-recommended": "^3.0.0",
+		"stylelint-order": "^4.1.0"
+	},
+	"peerDependencies": {
+		"stylelint": ">=11.0.0"
+	}
+}

@@ -1,0 +1,18 @@
+.selector {
+	border-radius: 0.2px;
+	padding: 1rem 1rem 1rem 3rem;
+	position: relative;
+
+	&::before {
+		left: 1rem;
+		position: absolute;
+	}
+
+	.nested-selector {
+		background-color: $color-info;
+
+		&::before {
+			content: 'ℹ️ ';
+		}
+	}
+}
