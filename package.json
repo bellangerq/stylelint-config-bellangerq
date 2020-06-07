@@ -8,6 +8,11 @@
 	},
 	"author": "Quentin Bellanger <hello@quentin-bellanger.com>",
 	"license": "MIT",
+	"homepage": "https://github.com/bellangerq/stylelint-config-bellangerq",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bellangerq/stylelint-config-bellangerq"
+	},
 	"dependencies": {
 		"stylelint": "^13.6.0",
 		"stylelint-config-recommended": "^3.0.0",

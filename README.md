@@ -31,3 +31,18 @@ Update the configuration in the main `index.js` file and test it against sample 
 ```sh
 yarn lint
 ```
+
+## Deploying
+
+Update the package version:
+
+```sh
+# This project only uses major versions
+npm version major
+```
+
+Push the latest version:
+
+```sh
+npm publish
+```
